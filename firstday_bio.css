@@ -1,0 +1,50 @@
+
+.resume_container{
+  display: inline-block;
+  position: relative;
+  width: 70%;
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.pic_container{
+  margin: 20px;
+}
+
+.side_nav {
+  display: inline-block;
+  border: 4px solid grey;
+  border-radius: 10px;
+  position: fixed;
+  width:24%;
+  vertical-align: top;
+}
+
+.box {
+  display:block;
+  border-bottom: 4px solid grey;
+}
+
+h2 {
+  padding: 5px;
+}
+
+.side_nav h2 {
+  margin-top: 0px;
+  border-bottom: 4px solid grey;
+}
+
+.side_nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+
+.side_nav a:hover {
+  color:blue;
+}
+
+footer {
+
+}

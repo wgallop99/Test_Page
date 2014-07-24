@@ -1,0 +1,58 @@
+.contact_content_container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.contact_container {
+  border: 5px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 30px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.form {
+  border: 5px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 56px;
+  vertical-align: top;
+  display: inline-block;
+  height: 178px;
+}
+
+label {
+  display: inline-block;
+  width: 67px;
+  text-align: right;
+  font-family: garamond;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+input, textarea {
+  font-family: garamond;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+.button{
+  padding-left: 90px;
+}
+
+.content_pic_container {
+  border: 5px solid black;
+  border-radius: 20px;
+  margin: 20px 15px;
+  display: inline-block;
+}
+
+.content_pic_container img {
+  padding: 20px
+}

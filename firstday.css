@@ -1,0 +1,78 @@
+.body_1, .body_2, .body_3 {
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.body_1 {
+  background-image: url('http://designmodo.com/wp-content/uploads/2012/10/09.jpg');
+}
+
+.body_2 {
+  background-image: url('http://subtlepatterns.com/patterns/retina_wood.png')
+}
+
+.body_3 {
+  background-image: url('http://subtlepatterns.com/patterns/skulls.png')
+}
+
+header, footer {
+	height: 110px;
+  text-align: center;
+	border-bottom: 2px solid #777;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: garamond;
+  font-weight: bold;
+}
+
+.main_nav {
+	display: inline-block;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 15px;
+	list-style-type: none;
+}
+
+.main_nav li{
+	display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding:7px 12px;
+  background-color: white;
+  font-weight: bold;
+  font-family: garamond;
+	margin-right: 50px;
+}
+
+.main_nav a:hover{
+	color: blue;
+}
+
+.main_nav a {
+	text-decoration: none;
+  color: black;
+}
+
+.p_content {
+  font-family: garamond;
+  text-align: center;
+  margin: 20px 229px;
+}
+
+.picture_container {
+  margin: 40px 302px;
+  display: inline-block;
+}
+
+.picture, .picture img {
+  display: inline-block;
+  border-radius: 100%;
+}
+
+footer {
+  border-top: 2px solid #777;
+}
