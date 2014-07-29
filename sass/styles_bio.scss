@@ -1,0 +1,205 @@
+.body_2 {
+  background-image: url('http://subtlepatterns.com/patterns/retina_wood.png');
+  border: 3px solid black;
+  border-radius: 10px;
+
+  header {
+    height: 110px;
+    text-align: center;
+    border-bottom: 2px solid #777;
+
+    h1 {
+      text-align: center;
+      padding-top: 20px;
+      font-family: garamond;
+      font-weight: bold;
+    }
+
+    .main_nav {
+      display: inline-block;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 15px;
+      list-style-type: none;
+
+      li{
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding:7px 12px;
+        background-color: white;
+        font-weight: bold;
+        font-family: garamond;
+        margin-right: 50px;
+      }
+
+      a:hover{
+        color: blue;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  .resume_container{
+    display: inline-block;
+    position: relative;
+    width: 70%;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .side_nav {
+    display: inline-block;
+    border: 4px solid grey;
+    border-radius: 10px;
+    position: fixed;
+    width:24%;
+    vertical-align: top;
+
+    h2 {
+      margin-top: 0px;
+      border-bottom: 4px solid grey;
+      padding: 5px;
+
+      .box {
+        display:block;
+        border-bottom: 4px solid grey;
+
+        a {
+          text-decoration: none;
+          color: black;
+          padding: 10px 20px;
+        }
+
+        a:hover {
+          color:blue;
+        }
+      }
+    }
+  }
+
+  footer {
+    border-top: 2px solid #777;
+    height: 110px;
+    text-align: center;
+    border-bottom: 2px solid #777;
+
+    .main_nav {
+      display: inline-block;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 15px;
+      list-style-type: none;
+
+      li{
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding:7px 12px;
+        background-color: white;
+        font-weight: bold;
+        font-family: garamond;
+        margin-right: 50px;
+      }
+
+      a:hover{
+        color: blue;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+
+@media all and (max-width:320px) {
+
+.body_1 {
+  header {
+    h1 {
+    }
+    nav{
+
+      .main_nav {
+        margin-left:-45px;
+
+        li {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+
+  .content {
+
+    .p_content {
+      margin: 20px 10px;
+      display: block;
+    }
+
+    .picture_container {
+      margin:20px 42px;
+    }
+  }
+
+  footer {
+    .main_nav {
+      margin-left:-45px;
+
+      li {
+        margin-right: 0px;
+      }
+    }
+  }
+}
+}
+
+@media all and (max-width:640px) {
+
+.body_1 {
+  header {
+    h1 {
+    }
+    nav{
+
+      .main_nav {
+        margin-left:-45px;
+
+        li {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+
+  .content {
+
+    .p_content {
+      margin: 20px 148px;
+      display: block;
+    }
+
+    .picture_container {
+      margin:40px 100px;
+    }
+  }
+
+  footer {
+    .main_nav {
+      margin-left:-45px;
+
+      li {
+        margin-right: 30px;
+      }
+    }
+  }
+}
+}

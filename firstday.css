@@ -1,78 +1,101 @@
-.body_1, .body_2, .body_3 {
-  border: 3px solid black;
-  border-radius: 10px;
-}
-
 .body_1 {
   background-image: url('http://designmodo.com/wp-content/uploads/2012/10/09.jpg');
-}
+  border: 3px solid black;
+  border-radius: 10px; }
+  .body_1 header {
+    height: 110px;
+    text-align: center;
+    border-bottom: 2px solid #777; }
+    .body_1 header h1 {
+      text-align: center;
+      padding-top: 20px;
+      font-family: garamond;
+      font-weight: bold; }
+    .body_1 header .main_nav {
+      display: inline-block;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 15px;
+      list-style-type: none; }
+      .body_1 header .main_nav li {
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 7px 12px;
+        background-color: white;
+        font-weight: bold;
+        font-family: garamond;
+        margin-right: 50px; }
+      .body_1 header .main_nav a:hover {
+        color: blue; }
+      .body_1 header .main_nav a {
+        text-decoration: none;
+        color: black; }
+  .body_1 .content .p_content {
+    font-family: garamond;
+    text-align: center;
+    margin: 20px 229px; }
+  .body_1 .content .picture_container {
+    margin: 40px 375px;
+    display: inline-block; }
+    .body_1 .content .picture_container .picture {
+      display: inline-block; }
+      .body_1 .content .picture_container .picture img {
+        border-radius: 100%; }
+  .body_1 footer {
+    border-top: 2px solid #777;
+    height: 110px;
+    text-align: center;
+    border-bottom: 2px solid #777; }
+    .body_1 footer .main_nav {
+      display: inline-block;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 15px;
+      list-style-type: none; }
+      .body_1 footer .main_nav li {
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 7px 12px;
+        background-color: white;
+        font-weight: bold;
+        font-family: garamond;
+        margin-right: 50px; }
+      .body_1 footer .main_nav a:hover {
+        color: blue; }
+      .body_1 footer .main_nav a {
+        text-decoration: none;
+        color: black; }
 
-.body_2 {
-  background-image: url('http://subtlepatterns.com/patterns/retina_wood.png')
-}
+@media all and (max-width: 320px) {
+  .body_1 header nav .main_nav {
+    margin-left: -45px; }
+    .body_1 header nav .main_nav li {
+      margin-right: 0px; }
+  .body_1 .content .p_content {
+    margin: 20px 10px;
+    display: block; }
+  .body_1 .content .picture_container {
+    margin: 20px 42px; }
+  .body_1 footer .main_nav {
+    margin-left: -45px; }
+    .body_1 footer .main_nav li {
+      margin-right: 0px; } }
 
-.body_3 {
-  background-image: url('http://subtlepatterns.com/patterns/skulls.png')
-}
-
-header, footer {
-	height: 110px;
-  text-align: center;
-	border-bottom: 2px solid #777;
-}
-
-h1 {
-  text-align: center;
-  padding-top: 20px;
-  font-family: garamond;
-  font-weight: bold;
-}
-
-.main_nav {
-	display: inline-block;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 15px;
-	list-style-type: none;
-}
-
-.main_nav li{
-	display: inline-block;
-  border: 2px solid black;
-  border-radius: 10px;
-  padding:7px 12px;
-  background-color: white;
-  font-weight: bold;
-  font-family: garamond;
-	margin-right: 50px;
-}
-
-.main_nav a:hover{
-	color: blue;
-}
-
-.main_nav a {
-	text-decoration: none;
-  color: black;
-}
-
-.p_content {
-  font-family: garamond;
-  text-align: center;
-  margin: 20px 229px;
-}
-
-.picture_container {
-  margin: 40px 302px;
-  display: inline-block;
-}
-
-.picture, .picture img {
-  display: inline-block;
-  border-radius: 100%;
-}
-
-footer {
-  border-top: 2px solid #777;
-}
+@media all and (max-width: 640px) {
+  .body_1 header nav .main_nav {
+    margin-left: -45px; }
+    .body_1 header nav .main_nav li {
+      margin-right: 30px; }
+  .body_1 .content .p_content {
+    margin: 20px 148px;
+    display: block; }
+  .body_1 .content .picture_container {
+    margin: 40px 100px; }
+  .body_1 footer .main_nav {
+    margin-left: -45px; }
+    .body_1 footer .main_nav li {
+      margin-right: 30px; } }

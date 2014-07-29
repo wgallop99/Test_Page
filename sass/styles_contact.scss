@@ -1,0 +1,232 @@
+.body_3 {
+  background-image: url('http://subtlepatterns.com/patterns/skulls.png');
+  border: 3px solid black;
+  border-radius: 10px;
+
+  header {
+    height: 110px;
+    text-align: center;
+    border-bottom: 2px solid #777;
+
+    h1 {
+      text-align: center;
+      padding-top: 20px;
+      font-family: garamond;
+      font-weight: bold;
+    }
+
+    .main_nav {
+      display: inline-block;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 15px;
+      list-style-type: none;
+
+      li{
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding:7px 12px;
+        background-color: white;
+        font-weight: bold;
+        font-family: garamond;
+        margin-right: 50px;
+      }
+
+      a:hover{
+        color: blue;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+
+  .contact_content_container {
+    text-align: center;
+    margin: 0 auto;
+
+    .contact_container {
+      border: 5px solid black;
+      border-radius: 20px;
+      margin: 20px;
+      padding: 30px;
+      vertical-align: top;
+      display: inline-block;
+    }
+
+    .form {
+      border: 5px solid black;
+      border-radius: 20px;
+      margin: 20px;
+      padding: 56px;
+      vertical-align: top;
+      display: inline-block;
+      height: 178px;
+
+      label {
+        display: inline-block;
+        width: 67px;
+        text-align: right;
+        font-family: garamond;
+        font-size: 17px;
+        font-weight: bold;
+      }
+
+      textarea {
+        font-family: garamond;
+      }
+
+      input {
+
+        font-family: garamond;
+      }
+
+      .message_lable {
+        textarea {
+          vertical-align: top;
+          height: 5em;
+          resize: vertical;
+        }
+      }
+
+      .button{
+        padding-left: 90px;
+      }
+    }
+
+    .content_pic_container {
+      border: 5px solid black;
+      border-radius: 20px;
+      margin: 20px 15px;
+      display: inline-block;
+
+      img {
+        padding: 20px
+      }
+    }
+  }
+
+  footer {
+    border-top: 2px solid #777;
+    height: 110px;
+    text-align: center;
+    border-bottom: 2px solid #777;
+
+    .main_nav {
+      display: inline-block;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 15px;
+      list-style-type: none;
+
+      li{
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding:7px 12px;
+        background-color: white;
+        font-weight: bold;
+        font-family: garamond;
+        margin-right: 50px;
+      }
+
+      a:hover{
+        color: blue;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+
+@media all and (max-width:320px) {
+
+.body_1 {
+  header {
+    h1 {
+    }
+    nav{
+
+      .main_nav {
+        margin-left:-45px;
+
+        li {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+
+  .content {
+
+    .p_content {
+      margin: 20px 10px;
+      display: block;
+    }
+
+    .picture_container {
+      margin:20px 42px;
+    }
+  }
+
+  footer {
+    .main_nav {
+      margin-left:-45px;
+
+      li {
+        margin-right: 0px;
+      }
+    }
+  }
+}
+}
+
+@media all and (max-width:640px) {
+
+.body_1 {
+  header {
+    h1 {
+    }
+    nav{
+
+      .main_nav {
+        margin-left:-45px;
+
+        li {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+
+  .content {
+
+    .p_content {
+      margin: 20px 148px;
+      display: block;
+    }
+
+    .picture_container {
+      margin:40px 100px;
+    }
+  }
+
+  footer {
+    .main_nav {
+      margin-left:-45px;
+
+      li {
+        margin-right: 30px;
+      }
+    }
+  }
+}
+}

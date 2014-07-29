@@ -1,0 +1,190 @@
+
+.body_1 {
+  background-image: url('http://designmodo.com/wp-content/uploads/2012/10/09.jpg');
+  border: 3px solid black;
+  border-radius: 10px;
+
+  header {
+    height: 110px;
+    text-align: center;
+    border-bottom: 2px solid #777;
+
+    h1 {
+      text-align: center;
+      padding-top: 20px;
+      font-family: garamond;
+      font-weight: bold;
+    }
+
+    .main_nav {
+      display: inline-block;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 15px;
+      list-style-type: none;
+
+      li{
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding:7px 12px;
+        background-color: white;
+        font-weight: bold;
+        font-family: garamond;
+        margin-right: 50px;
+      }
+
+      a:hover{
+        color: blue;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+
+  .content {
+    .p_content {
+      font-family: garamond;
+      text-align: center;
+      margin: 20px 229px;
+    }
+
+    .picture_container {
+      margin: 40px 375px;
+      display: inline-block;
+
+      .picture {
+        display: inline-block;
+
+        img {
+
+        border-radius: 100%;
+        }
+      }
+    }
+  }
+
+  footer {
+    border-top: 2px solid #777;
+    height: 110px;
+    text-align: center;
+    border-bottom: 2px solid #777;
+
+    .main_nav {
+      display: inline-block;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 15px;
+      list-style-type: none;
+
+      li{
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding:7px 12px;
+        background-color: white;
+        font-weight: bold;
+        font-family: garamond;
+        margin-right: 50px;
+      }
+
+      a:hover{
+        color: blue;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+
+@media all and (max-width:320px) {
+
+.body_1 {
+  header {
+    h1 {
+    }
+    nav{
+
+      .main_nav {
+        margin-left:-45px;
+
+        li {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+
+  .content {
+
+    .p_content {
+      margin: 20px 10px;
+      display: block;
+    }
+
+    .picture_container {
+      margin:20px 42px;
+    }
+  }
+
+  footer {
+    .main_nav {
+      margin-left:-45px;
+
+      li {
+        margin-right: 0px;
+      }
+    }
+  }
+}
+}
+
+@media all and (max-width:640px) {
+
+.body_1 {
+  header {
+    h1 {
+    }
+    nav{
+
+      .main_nav {
+        margin-left:-45px;
+
+        li {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+
+  .content {
+
+    .p_content {
+      margin: 20px 148px;
+      display: block;
+    }
+
+    .picture_container {
+      margin:40px 100px;
+    }
+  }
+
+  footer {
+    .main_nav {
+      margin-left:-45px;
+
+      li {
+        margin-right: 30px;
+      }
+    }
+  }
+}
+}

@@ -1,58 +1,132 @@
-.contact_content_container {
-  text-align: center;
-  margin: 0 auto;
-}
+.body_3 {
+  background-image: url('http://subtlepatterns.com/patterns/skulls.png');
+  border: 3px solid black;
+  border-radius: 10px; }
+  .body_3 header {
+    height: 110px;
+    text-align: center;
+    border-bottom: 2px solid #777; }
+    .body_3 header h1 {
+      text-align: center;
+      padding-top: 20px;
+      font-family: garamond;
+      font-weight: bold; }
+    .body_3 header .main_nav {
+      display: inline-block;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 15px;
+      list-style-type: none; }
+      .body_3 header .main_nav li {
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 7px 12px;
+        background-color: white;
+        font-weight: bold;
+        font-family: garamond;
+        margin-right: 50px; }
+      .body_3 header .main_nav a:hover {
+        color: blue; }
+      .body_3 header .main_nav a {
+        text-decoration: none;
+        color: black; }
+  .body_3 .contact_content_container {
+    text-align: center;
+    margin: 0 auto; }
+    .body_3 .contact_content_container .contact_container {
+      border: 5px solid black;
+      border-radius: 20px;
+      margin: 20px;
+      padding: 30px;
+      vertical-align: top;
+      display: inline-block; }
+    .body_3 .contact_content_container .form {
+      border: 5px solid black;
+      border-radius: 20px;
+      margin: 20px;
+      padding: 56px;
+      vertical-align: top;
+      display: inline-block;
+      height: 178px; }
+      .body_3 .contact_content_container .form label {
+        display: inline-block;
+        width: 67px;
+        text-align: right;
+        font-family: garamond;
+        font-size: 17px;
+        font-weight: bold; }
+      .body_3 .contact_content_container .form textarea {
+        font-family: garamond; }
+      .body_3 .contact_content_container .form input {
+        font-family: garamond; }
+      .body_3 .contact_content_container .form .message_lable textarea {
+        vertical-align: top;
+        height: 5em;
+        resize: vertical; }
+      .body_3 .contact_content_container .form .button {
+        padding-left: 90px; }
+    .body_3 .contact_content_container .content_pic_container {
+      border: 5px solid black;
+      border-radius: 20px;
+      margin: 20px 15px;
+      display: inline-block; }
+      .body_3 .contact_content_container .content_pic_container img {
+        padding: 20px; }
+  .body_3 footer {
+    border-top: 2px solid #777;
+    height: 110px;
+    text-align: center;
+    border-bottom: 2px solid #777; }
+    .body_3 footer .main_nav {
+      display: inline-block;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 15px;
+      list-style-type: none; }
+      .body_3 footer .main_nav li {
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 7px 12px;
+        background-color: white;
+        font-weight: bold;
+        font-family: garamond;
+        margin-right: 50px; }
+      .body_3 footer .main_nav a:hover {
+        color: blue; }
+      .body_3 footer .main_nav a {
+        text-decoration: none;
+        color: black; }
 
+@media all and (max-width: 320px) {
+  .body_1 header nav .main_nav {
+    margin-left: -45px; }
+    .body_1 header nav .main_nav li {
+      margin-right: 0px; }
+  .body_1 .content .p_content {
+    margin: 20px 10px;
+    display: block; }
+  .body_1 .content .picture_container {
+    margin: 20px 42px; }
+  .body_1 footer .main_nav {
+    margin-left: -45px; }
+    .body_1 footer .main_nav li {
+      margin-right: 0px; } }
 
-.contact_container {
-  border: 5px solid black;
-  border-radius: 20px;
-  margin: 20px;
-  padding: 30px;
-  vertical-align: top;
-  display: inline-block;
-}
-
-.form {
-  border: 5px solid black;
-  border-radius: 20px;
-  margin: 20px;
-  padding: 56px;
-  vertical-align: top;
-  display: inline-block;
-  height: 178px;
-}
-
-label {
-  display: inline-block;
-  width: 67px;
-  text-align: right;
-  font-family: garamond;
-  font-size: 17px;
-  font-weight: bold;
-}
-
-input, textarea {
-  font-family: garamond;
-}
-
-textarea {
-  vertical-align: top;
-  height: 5em;
-  resize: vertical;
-}
-
-.button{
-  padding-left: 90px;
-}
-
-.content_pic_container {
-  border: 5px solid black;
-  border-radius: 20px;
-  margin: 20px 15px;
-  display: inline-block;
-}
-
-.content_pic_container img {
-  padding: 20px
-}
+@media all and (max-width: 640px) {
+  .body_1 header nav .main_nav {
+    margin-left: -45px; }
+    .body_1 header nav .main_nav li {
+      margin-right: 30px; }
+  .body_1 .content .p_content {
+    margin: 20px 148px;
+    display: block; }
+  .body_1 .content .picture_container {
+    margin: 40px 100px; }
+  .body_1 footer .main_nav {
+    margin-left: -45px; }
+    .body_1 footer .main_nav li {
+      margin-right: 30px; } }
