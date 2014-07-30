@@ -12,26 +12,22 @@
       font-family: garamond;
       font-weight: bold; }
     .body_2 header .main_nav {
-      display: inline-block;
-      margin-top: 0px;
-      margin-right: auto;
-      margin-left: auto;
-      padding-top: 15px;
-      list-style-type: none; }
+      list-style-type: none;
+      display: inline-block; }
       .body_2 header .main_nav li {
-        display: inline-block;
         border: 2px solid black;
         border-radius: 10px;
         padding: 7px 12px;
         background-color: white;
         font-weight: bold;
         font-family: garamond;
-        margin-right: 50px; }
-      .body_2 header .main_nav a:hover {
-        color: blue; }
-      .body_2 header .main_nav a {
-        text-decoration: none;
-        color: black; }
+        margin-right: 50px;
+        float: left; }
+        .body_2 header .main_nav li a:hover {
+          color: blue; }
+        .body_2 header .main_nav li a {
+          text-decoration: none;
+          color: black; }
   .body_2 .resume_container {
     display: inline-block;
     position: relative;
@@ -65,21 +61,17 @@
     text-align: center;
     border-bottom: 2px solid #777; }
     .body_2 footer .main_nav {
-      display: inline-block;
-      margin-top: 0px;
-      margin-right: auto;
-      margin-left: auto;
-      padding-top: 15px;
-      list-style-type: none; }
+      list-style-type: none;
+      display: inline-block; }
       .body_2 footer .main_nav li {
-        display: inline-block;
         border: 2px solid black;
         border-radius: 10px;
         padding: 7px 12px;
         background-color: white;
         font-weight: bold;
         font-family: garamond;
-        margin-right: 50px; }
+        margin-right: 50px;
+        float: left; }
       .body_2 footer .main_nav a:hover {
         color: blue; }
       .body_2 footer .main_nav a {
@@ -100,18 +92,3 @@
     margin-left: -45px; }
     .body_1 footer .main_nav li {
       margin-right: 0px; } }
-
-@media all and (max-width: 640px) {
-  .body_1 header nav .main_nav {
-    margin-left: -45px; }
-    .body_1 header nav .main_nav li {
-      margin-right: 30px; }
-  .body_1 .content .p_content {
-    margin: 20px 148px;
-    display: block; }
-  .body_1 .content .picture_container {
-    margin: 40px 100px; }
-  .body_1 footer .main_nav {
-    margin-left: -45px; }
-    .body_1 footer .main_nav li {
-      margin-right: 30px; } }

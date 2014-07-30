@@ -16,23 +16,17 @@
     }
 
     .main_nav {
-      display: inline-block;
-      margin-top: 0px;
-      margin-right: auto;
-      margin-left: auto;
-      padding-top: 15px;
       list-style-type: none;
+      display: inline-block;
 
       li{
-        display: inline-block;
         border: 2px solid black;
         border-radius: 10px;
         padding:7px 12px;
         background-color: white;
         font-weight: bold;
         font-family: garamond;
-        margin-right: 50px;
-      }
+        float: left;
 
       a:hover{
         color: blue;
@@ -44,6 +38,8 @@
       }
     }
   }
+}
+
   .resume_container{
     display: inline-block;
     position: relative;
@@ -90,34 +86,30 @@
     border-bottom: 2px solid #777;
 
     .main_nav {
-      display: inline-block;
-      margin-top: 0px;
-      margin-right: auto;
-      margin-left: auto;
-      padding-top: 15px;
       list-style-type: none;
+      display: inline-block;
 
-      li{
-        display: inline-block;
-        border: 2px solid black;
-        border-radius: 10px;
-        padding:7px 12px;
-        background-color: white;
-        font-weight: bold;
-        font-family: garamond;
-        margin-right: 50px;
-      }
+        li{
+          border: 2px solid black;
+          border-radius: 10px;
+          padding:7px 12px;
+          background-color: white;
+          font-weight: bold;
+          font-family: garamond;
+          margin-right: 50px;
+          float: left;
+        }
 
-      a:hover{
-        color: blue;
-      }
+        a:hover{
+          color: blue;
+        }
 
-      a {
-        text-decoration: none;
-        color: black;
+        a {
+          text-decoration: none;
+          color: black;
+        }
       }
     }
-  }
 }
 
 @media all and (max-width:320px) {
@@ -138,17 +130,6 @@
     }
   }
 
-  .content {
-
-    .p_content {
-      margin: 20px 10px;
-      display: block;
-    }
-
-    .picture_container {
-      margin:20px 42px;
-    }
-  }
 
   footer {
     .main_nav {
@@ -156,48 +137,6 @@
 
       li {
         margin-right: 0px;
-      }
-    }
-  }
-}
-}
-
-@media all and (max-width:640px) {
-
-.body_1 {
-  header {
-    h1 {
-    }
-    nav{
-
-      .main_nav {
-        margin-left:-45px;
-
-        li {
-          margin-right: 30px;
-        }
-      }
-    }
-  }
-
-  .content {
-
-    .p_content {
-      margin: 20px 148px;
-      display: block;
-    }
-
-    .picture_container {
-      margin:40px 100px;
-    }
-  }
-
-  footer {
-    .main_nav {
-      margin-left:-45px;
-
-      li {
-        margin-right: 30px;
       }
     }
   }
